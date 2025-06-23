@@ -38,8 +38,8 @@ app.post('/send-email', (req, res) => {
     port: 465,
     secure: true, // upgrade later with STARTTLS
     auth: {
-      user: "noreply@ozrealty.house",
-      pass: "@1ce2>#*1^ed",
+      user: "email@goodjujumail.com",
+      pass: "Berane321@",
     },
     tls:{
       rejectUnauthorized: false
@@ -55,7 +55,7 @@ app.post('/send-email', (req, res) => {
       <head>
         <style>
           body { font-family: Arial, sans-serif; }
-          .header { color: #362655; }
+          .header { color: #000035; }
         </style>
       </head>
       <body>
