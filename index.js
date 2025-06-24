@@ -47,7 +47,7 @@ app.post('/send-email', (req, res) => {
   });
 
   const mailOptions = {
-    from: 'noreply@ozrealty.house',
+    from: 'email@goodjujumail.com',
     to: `${email}`,
     subject: 'Your Free Rental Analysis from Team Kuptz',
     html: `
