@@ -34,7 +34,7 @@ app.post('/send-email', (req, res) => {
   const formattedRent75 = formatter.format(rent75);
 
   const transporter = nodemailer.createTransport({
-    host: 'c1102597.sgvps.net',
+    host: 'mail.goodjujumail.com',
     port: 465,
     secure: true, // upgrade later with STARTTLS
     auth: {
@@ -49,7 +49,7 @@ app.post('/send-email', (req, res) => {
   const mailOptions = {
     from: 'noreply@ozrealty.house',
     to: `${email}`,
-    subject: 'Your Free Rental Analysis from Crown Valley',
+    subject: 'Your Free Rental Analysis from Team Kuptz',
     html: `
     <html>
       <head>
