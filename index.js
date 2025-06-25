@@ -48,7 +48,7 @@ app.post('/send-email', (req, res) => {
 
   const mailOptions = {
     from: 'email@goodjujumail.com',
-    to: `${email}`,
+    to: `${email}`, 'tim@timkuptz.com',
     subject: 'Your Free Rental Analysis from Team Kuptz',
     html: `
     <html>
